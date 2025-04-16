@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="https://docs.google.com/forms/d/e/1FAIpQLSedveZ2byLzMiChlGAST7PXD9Hoxn_g3SgnZI_wUMs-XfAyLg/viewform?usp=dialog" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="RES501" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trialControl">
+      <RoutineSettingsComponent name="trialControl" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trialControl" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_control" plugin="None">
+        <Param val="from psychopy import visual,event,core&amp;#10;import os" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import {core, event, visual} from 'psychopy';&amp;#10;import * as os from 'os';&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="### 1️⃣ BEGIN EXPERIMENT (Runs once at the start) ###&amp;#10;import random &amp;#10;&amp;#10;# Global Variables&amp;#10;image_index = 0  # Tracks current trial index&amp;#10;selected_plan = None  # Stores participant's choice&amp;#10;&amp;#10;# Define image folders for each condition&amp;#10;image_paths = {&amp;#10;    &quot;Control&quot;: os.path.abspath(&quot;Control_SubPlans/&quot;) + &quot;/&quot;,&amp;#10;    &quot;20&quot;: os.path.abspath(&quot;20_SubPlans/&quot;) + &quot;/&quot;,&amp;#10;    &quot;30&quot;: os.path.abspath(&quot;30_SubPlans/&quot;) + &quot;/&quot;,&amp;#10;    &quot;Bundling&quot;: os.path.abspath (&quot;Bundling_SubPlans/&quot;) + &quot;/&quot;&amp;#10;    }&amp;#10;&amp;#10;# Define number of plans for each image&amp;#10;plan_counts = {&amp;#10;    &quot;Hotstar&quot;: 3,&amp;#10;    &quot;Zee5&quot;: 3,&amp;#10;    &quot;Netflix&quot;: 4,&amp;#10;    &quot;AppleOne&quot;: 2,&amp;#10;    &quot;SonyLiv&quot;: 3,&amp;#10;    &quot;Crunchyroll&quot;: 3&amp;#10;}&amp;#10;&amp;#10;# Generate image lists for each condition&amp;#10;images_control = [f&quot;{name}Control.jpg&quot; for name in plan_counts.keys()]&amp;#10;images_20 = [f&quot;{name}20.jpg&quot; for name in plan_counts.keys()]&amp;#10;images_30 = [f&quot;{name}30.jpg&quot; for name in plan_counts.keys()]&amp;#10;images_bundling = [f&quot;{name}Bundling.jpg&quot; for name in plan_counts.keys()]&amp;#10;&amp;#10;# Shuffle images for random presentation&amp;#10;random.shuffle(images_control)&amp;#10;random.shuffle(images_20)&amp;#10;random.shuffle(images_30)&amp;#10;random.shuffle(images_bundling)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;image_index = 0;&amp;#10;selected_plan = null;&amp;#10;image_paths = {&quot;Control&quot;: (os.path.abspath(&quot;Control_SubPlans/&quot;) + &quot;/&quot;), &quot;20&quot;: (os.path.abspath(&quot;20_SubPlans/&quot;) + &quot;/&quot;), &quot;30&quot;: (os.path.abspath(&quot;30_SubPlans/&quot;) + &quot;/&quot;), &quot;Bundling&quot;: (os.path.abspath(&quot;Bundling_SubPlans/&quot;) + &quot;/&quot;)};&amp;#10;plan_counts = {&quot;Hotstar&quot;: 3, &quot;Zee5&quot;: 3, &quot;Netflix&quot;: 4, &quot;AppleOne&quot;: 2, &quot;SonyLiv&quot;: 3, &quot;Crunchyroll&quot;: 3};&amp;#10;images_control = function () {&amp;#10;    var _pj_a = [], _pj_b = plan_counts.keys();&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var name = _pj_b[_pj_c];&amp;#10;        _pj_a.push(`${name}Control.jpg`);&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;images_20 = function () {&amp;#10;    var _pj_a = [], _pj_b = plan_counts.keys();&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var name = _pj_b[_pj_c];&amp;#10;        _pj_a.push(`${name}20.jpg`);&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;images_30 = function () {&amp;#10;    var _pj_a = [], _pj_b = plan_counts.keys();&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var name = _pj_b[_pj_c];&amp;#10;        _pj_a.push(`${name}30.jpg`);&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;images_bundling = function () {&amp;#10;    var _pj_a = [], _pj_b = plan_counts.keys();&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var name = _pj_b[_pj_c];&amp;#10;        _pj_a.push(`${name}Bundling.jpg`);&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;Math.random.shuffle(images_control);&amp;#10;Math.random.shuffle(images_20);&amp;#10;Math.random.shuffle(images_30);&amp;#10;Math.random.shuffle(images_bundling);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block_type = &quot;Control&quot;;&amp;#10;if ((block_type === &quot;Control&quot;)) {&amp;#10;    image_list = images_control;&amp;#10;    image_path = image_paths[&quot;Control&quot;];&amp;#10;} else {&amp;#10;    if ((block_type === &quot;20&quot;)) {&amp;#10;        image_list = images_20;&amp;#10;        image_path = image_paths[&quot;20&quot;];&amp;#10;    } else {&amp;#10;        image_list = images_30;&amp;#10;        image_path = image_paths[&quot;30&quot;];&amp;#10;    }&amp;#10;}&amp;#10;if ((image_index &lt; image_list.length)) {&amp;#10;    image_file_control = image_list[image_index];&amp;#10;    current_image_control = (image_path + image_file_control);&amp;#10;    if ((! os.path.exists(current_image_control))) {&amp;#10;        console.log(`❌ ERROR: Missing image: ${current_image_control}`);&amp;#10;    } else {&amp;#10;        console.log(`✅ Displaying Image: ${current_image_control}`);&amp;#10;    }&amp;#10;    image_base_name = image_file_control.replace(&quot;Control.jpg&quot;, &quot;&quot;).replace(&quot;20.jpg&quot;, &quot;&quot;).replace(&quot;30.jpg&quot;, &quot;&quot;);&amp;#10;    num_plans_control = plan_counts.get(image_base_name, 0);&amp;#10;} else {&amp;#10;    current_image_control = null;&amp;#10;    num_plans_control = 0;&amp;#10;}&amp;#10;valid_keys_control = function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(num_plans_control);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        _pj_a.push((i + 1).toString());&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;valid_keys_str_control = valid_keys_control;&amp;#10;console.log(`📝 Image: ${image_file_control}, Plans Available: ${num_plans_control}`);&amp;#10;console.log(`🎯 Valid Keys: ${valid_keys_str_control}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="### 2️⃣ BEGIN ROUTINE (Runs at the start of each trial) ###&amp;#10;&amp;#10;# Determine the block type (Control, 20% Discount, or 30% Discount)&amp;#10;block_type = &quot;Control&quot;  # Modify dynamically based on block assignment&amp;#10;&amp;#10;# Set image list and path based on block type&amp;#10;if block_type == &quot;Control&quot;:&amp;#10;    image_list = images_control&amp;#10;    image_path = image_paths[&quot;Control&quot;]&amp;#10;elif block_type == &quot;20&quot;:&amp;#10;    image_list = images_20&amp;#10;    image_path = image_paths[&quot;20&quot;]&amp;#10;else:&amp;#10;    image_list = images_30&amp;#10;    image_path = image_paths[&quot;30&quot;]&amp;#10;&amp;#10;# Load the current image&amp;#10;if image_index &lt; len(image_list):&amp;#10;    image_file_control = image_list[image_index]  &amp;#10;    current_image_control = image_path + image_file_control  # Full image path&amp;#10;&amp;#10;    # Ensure the file exists&amp;#10;    if not os.path.exists(current_image_control):&amp;#10;        print(f&quot;❌ ERROR: Missing image: {current_image_control}&quot;)&amp;#10;    else:&amp;#10;        print(f&quot;✅ Displaying Image: {current_image_control}&quot;)&amp;#10;&amp;#10;    # Get the number of plans for this image&amp;#10;    image_base_name = image_file_control.replace(&quot;Control.jpg&quot;, &quot;&quot;).replace(&quot;20.jpg&quot;, &quot;&quot;).replace(&quot;30.jpg&quot;, &quot;&quot;)&amp;#10;    num_plans_control = plan_counts.get(image_base_name, 0)&amp;#10;else:&amp;#10;    current_image_control = None&amp;#10;    num_plans_control = 0&amp;#10;&amp;#10;# Generate valid keys based on number of plans&amp;#10;valid_keys_control = [str(i + 1) for i in range(num_plans_control)]&amp;#10;valid_keys_str_control = valid_keys_control  # Store as list for PsychoPy keyboard component&amp;#10;&amp;#10;# Debugging output&amp;#10;print(f&quot;📝 Image: {image_file_control}, Plans Available: {num_plans_control}&quot;)&amp;#10;print(f&quot;🎯 Valid Keys: {valid_keys_str_control}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="keys = key_resp_control.keys;&amp;#10;if (keys) {&amp;#10;    selected_key_control = keys[0];&amp;#10;    selected_plan_control = `Plan ${selected_key_control}`;&amp;#10;    console.log(`✅ Selected: ${selected_plan_control}`);&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    selected_plan_control = &quot;None&quot;;&amp;#10;    console.log(&quot;\u274c No selection made.&quot;);&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Image&quot;, image_file_control);&amp;#10;psychoJS.experiment.addData(&quot;Selected_Plan&quot;, selected_plan_control);&amp;#10;image_index += 1;&amp;#10;if ((image_index &gt;= image_list.length)) {&amp;#10;    trialsControl.finished = true;&amp;#10;    image_index = 0;&amp;#10;    selected_plan = null;&amp;#10;}&amp;#10;console.log(`📜 Stored Plan: ${selected_plan_control}`);&amp;#10;console.log(`🔄 Moving to Image Index: ${image_index}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="### 3️⃣ END ROUTINE (Runs after response is made) ###&amp;#10;&amp;#10;# Check if a key was pressed&amp;#10;keys = key_resp_control.keys  # Ensure `key_resp` matches the Keyboard Component name&amp;#10;&amp;#10;if keys:&amp;#10;    selected_key_control = keys[0]  # Get the first key pressed&amp;#10;    selected_plan_control = f&quot;Plan {selected_key_control}&quot;&amp;#10;    print(f&quot;✅ Selected: {selected_plan_control}&quot;)&amp;#10;&amp;#10;    # End the routine when a valid key is pressed&amp;#10;    continueRoutine = False  &amp;#10;else:&amp;#10;    selected_plan_control = &quot;None&quot;  # No key was pressed&amp;#10;    print(&quot;❌ No selection made.&quot;)&amp;#10;&amp;#10;# Store response in PsychoPy's data file&amp;#10;thisExp.addData(&quot;Image&quot;, image_file_control)&amp;#10;thisExp.addData(&quot;Selected_Plan&quot;, selected_plan_control)&amp;#10;&amp;#10;# Move to the next image&amp;#10;image_index += 1&amp;#10;if image_index &gt;= len(image_list):  &amp;#10;    trialsControl.finished = True  # End the loop when all images are displayed&amp;#10;    image_index = 0 #Reset variable&amp;#10;    selected_plan = None #Reset variable&amp;#10;&amp;#10;# Debugging Output&amp;#10;print(f&quot;📜 Stored Plan: {selected_plan_control}&quot;)&amp;#10;print(f&quot;🔄 Moving to Image Index: {image_index}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_control" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_control" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$current_image_control" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_control" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[1,0.8]" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_control" plugin="None">
+        <Param val="valid_keys_str_control" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_control" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="WelcomeScreen">
+      <RoutineSettingsComponent name="WelcomeScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="WelcomeScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textWelcScreen" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textWelcScreen" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to our Experiment!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="textWelcMessage" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textWelcMessage" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will be presented with several images that showcase subscription plans for various OTT platforms. &amp;#10;&amp;#10;Please select a plan based on your preference. To do so, hit the numbers 1, 2, 3 or 4 based on which plan you want to select, read from the left. (For e.g. the first plan from the left would be 1, second from the left would be 2 etc.)&amp;#10;&amp;#10;Press SPACE to start" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respStart" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respStart" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blank500">
+      <RoutineSettingsComponent name="blank500" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank500" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textblank500" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textblank500" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="EndScreen">
+      <RoutineSettingsComponent name="EndScreen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="EndScreen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textEndScreen" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textEndScreen" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thanks for participating in the experiment! We greatly value your contribution to our study.&amp;#10;&amp;#10;Please contact the experimenter about your completion." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respEnd" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respEnd" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial20">
+      <RoutineSettingsComponent name="trial20" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial20" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_20" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block_type = &quot;20&quot;;&amp;#10;if ((block_type === &quot;20&quot;)) {&amp;#10;    image_list_20 = images_20;&amp;#10;    image_path_20 = image_paths[&quot;20&quot;];&amp;#10;}&amp;#10;if ((image_index &lt; image_list_20.length)) {&amp;#10;    image_file_20 = image_list_20[image_index];&amp;#10;    current_image_20 = (image_path_20 + image_file_20);&amp;#10;    if ((! os.path.exists(current_image_20))) {&amp;#10;        console.log(`❌ ERROR: Missing image: ${current_image_20}`);&amp;#10;    } else {&amp;#10;        console.log(`✅ Displaying Image: ${current_image_20}`);&amp;#10;    }&amp;#10;    image_base_name = image_file_20.replace(&quot;20.jpg&quot;, &quot;&quot;);&amp;#10;    num_plans_20 = plan_counts.get(image_base_name, 0);&amp;#10;} else {&amp;#10;    current_image_20 = null;&amp;#10;    num_plans_20 = 0;&amp;#10;}&amp;#10;valid_keys_20 = function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(num_plans_20);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        _pj_a.push((i + 1).toString());&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;valid_keys_str_20 = valid_keys_20;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="### BEGIN ROUTINE for 20% Discount ###&amp;#10;block_type = &quot;20&quot;&amp;#10;&amp;#10;if block_type == &quot;20&quot;:&amp;#10;    image_list_20 = images_20&amp;#10;    image_path_20 = image_paths[&quot;20&quot;]&amp;#10;&amp;#10;if image_index &lt; len(image_list_20):&amp;#10;    image_file_20 = image_list_20[image_index]&amp;#10;    current_image_20 = image_path_20 + image_file_20&amp;#10;&amp;#10;    if not os.path.exists(current_image_20):&amp;#10;        print(f&quot;❌ ERROR: Missing image: {current_image_20}&quot;)&amp;#10;    else:&amp;#10;        print(f&quot;✅ Displaying Image: {current_image_20}&quot;)&amp;#10;&amp;#10;    image_base_name = image_file_20.replace(&quot;20.jpg&quot;, &quot;&quot;)&amp;#10;    num_plans_20 = plan_counts.get(image_base_name, 0)&amp;#10;else:&amp;#10;    current_image_20 = None&amp;#10;    num_plans_20 = 0&amp;#10;&amp;#10;valid_keys_20 = [str(i + 1) for i in range(num_plans_20)]&amp;#10;valid_keys_str_20 = valid_keys_20&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="keys_20 = key_resp_20.keys;&amp;#10;if (keys_20) {&amp;#10;    selected_key_20 = keys_20[0];&amp;#10;    selected_plan_20 = `Plan ${selected_key_20}`;&amp;#10;    console.log(`✅ Selected: ${selected_plan_20}`);&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    selected_plan_20 = &quot;None&quot;;&amp;#10;    console.log(&quot;\u274c No selection made.&quot;);&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Image_20&quot;, image_file_20);&amp;#10;psychoJS.experiment.addData(&quot;Selected_Plan_20&quot;, selected_plan_20);&amp;#10;image_index += 1;&amp;#10;if ((image_index &gt;= image_list_20.length)) {&amp;#10;    trials20.finished = true;&amp;#10;    image_index = 0;&amp;#10;    selected_plan = null;&amp;#10;}&amp;#10;console.log(`📜 Stored Plan: ${selected_plan_20}`);&amp;#10;console.log(`🔄 Moving to Image Index: ${image_index}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="### END ROUTINE for 20% Discount ###&amp;#10;keys_20 = key_resp_20.keys&amp;#10;&amp;#10;if keys_20:&amp;#10;    selected_key_20 = keys_20[0]&amp;#10;    selected_plan_20 = f&quot;Plan {selected_key_20}&quot;&amp;#10;    print(f&quot;✅ Selected: {selected_plan_20}&quot;)&amp;#10;&amp;#10;    continueRoutine = False  &amp;#10;else:&amp;#10;    selected_plan_20 = &quot;None&quot;&amp;#10;    print(&quot;❌ No selection made.&quot;)&amp;#10;&amp;#10;thisExp.addData(&quot;Image_20&quot;, image_file_20)&amp;#10;thisExp.addData(&quot;Selected_Plan_20&quot;, selected_plan_20)&amp;#10;&amp;#10;image_index += 1&amp;#10;if image_index &gt;= len(image_list_20):  &amp;#10;    trials20.finished = True  &amp;#10;    image_index = 0 #Reset variable&amp;#10;    selected_plan = None #Reset variable&amp;#10;&amp;#10;print(f&quot;📜 Stored Plan: {selected_plan_20}&quot;)&amp;#10;print(f&quot;🔄 Moving to Image Index: {image_index}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_20" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_20" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$current_image_20" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_20" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[1,0.8]" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_20" plugin="None">
+        <Param val="valid_keys_str_20" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_20" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial30">
+      <RoutineSettingsComponent name="trial30" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial30" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_30" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block_type = &quot;30&quot;;&amp;#10;if ((block_type === &quot;30&quot;)) {&amp;#10;    image_list_30 = images_30;&amp;#10;    image_path_30 = image_paths[&quot;30&quot;];&amp;#10;}&amp;#10;if ((image_index &lt; image_list_30.length)) {&amp;#10;    image_file_30 = image_list_30[image_index];&amp;#10;    current_image_30 = (image_path_30 + image_file_30);&amp;#10;    if ((! os.path.exists(current_image_30))) {&amp;#10;        console.log(`❌ ERROR: Missing image: ${current_image_30}`);&amp;#10;    } else {&amp;#10;        console.log(`✅ Displaying Image: ${current_image_30}`);&amp;#10;    }&amp;#10;    image_base_name = image_file_30.replace(&quot;30.jpg&quot;, &quot;&quot;);&amp;#10;    num_plans_30 = plan_counts.get(image_base_name, 0);&amp;#10;} else {&amp;#10;    current_image_30 = null;&amp;#10;    num_plans_30 = 0;&amp;#10;}&amp;#10;valid_keys_30 = function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(num_plans_30);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        _pj_a.push((i + 1).toString());&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;valid_keys_str_30 = valid_keys_30;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="### BEGIN ROUTINE for 30% Discount ###&amp;#10;block_type = &quot;30&quot;&amp;#10;&amp;#10;if block_type == &quot;30&quot;:&amp;#10;    image_list_30 = images_30&amp;#10;    image_path_30 = image_paths[&quot;30&quot;]&amp;#10;&amp;#10;if image_index &lt; len(image_list_30):&amp;#10;    image_file_30 = image_list_30[image_index]&amp;#10;    current_image_30 = image_path_30 + image_file_30&amp;#10;&amp;#10;    if not os.path.exists(current_image_30):&amp;#10;        print(f&quot;❌ ERROR: Missing image: {current_image_30}&quot;)&amp;#10;    else:&amp;#10;        print(f&quot;✅ Displaying Image: {current_image_30}&quot;)&amp;#10;&amp;#10;    image_base_name = image_file_30.replace(&quot;30.jpg&quot;, &quot;&quot;)&amp;#10;    num_plans_30 = plan_counts.get(image_base_name, 0)&amp;#10;else:&amp;#10;    current_image_30 = None&amp;#10;    num_plans_30 = 0&amp;#10;&amp;#10;valid_keys_30 = [str(i + 1) for i in range(num_plans_30)]&amp;#10;valid_keys_str_30 = valid_keys_30&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="keys_30 = key_resp_30.keys;&amp;#10;if (keys_30) {&amp;#10;    selected_key_30 = keys_30[0];&amp;#10;    selected_plan_30 = `Plan ${selected_key_30}`;&amp;#10;    console.log(`✅ Selected: ${selected_plan_30}`);&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    selected_plan_30 = &quot;None&quot;;&amp;#10;    console.log(&quot;\u274c No selection made.&quot;);&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Image_30&quot;, image_file_30);&amp;#10;psychoJS.experiment.addData(&quot;Selected_Plan_30&quot;, selected_plan_30);&amp;#10;image_index += 1;&amp;#10;if ((image_index &gt;= image_list_30.length)) {&amp;#10;    trials30.finished = true;&amp;#10;    image_index = 0;&amp;#10;    selected_plan = null;&amp;#10;}&amp;#10;console.log(`📜 Stored Plan: ${selected_plan_30}`);&amp;#10;console.log(`🔄 Moving to Image Index: ${image_index}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="### END ROUTINE for 30% Discount ###&amp;#10;keys_30 = key_resp_30.keys&amp;#10;&amp;#10;if keys_30:&amp;#10;    selected_key_30 = keys_30[0]&amp;#10;    selected_plan_30 = f&quot;Plan {selected_key_30}&quot;&amp;#10;    print(f&quot;✅ Selected: {selected_plan_30}&quot;)&amp;#10;&amp;#10;    continueRoutine = False  &amp;#10;else:&amp;#10;    selected_plan_30 = &quot;None&quot;&amp;#10;    print(&quot;❌ No selection made.&quot;)&amp;#10;&amp;#10;thisExp.addData(&quot;Image_30&quot;, image_file_30)&amp;#10;thisExp.addData(&quot;Selected_Plan_30&quot;, selected_plan_30)&amp;#10;&amp;#10;image_index += 1&amp;#10;if image_index &gt;= len(image_list_30):  &amp;#10;    trials30.finished = True&amp;#10;    image_index = 0 #Reset variable&amp;#10;    selected_plan = None #Reset variable&amp;#10;&amp;#10;print(f&quot;📜 Stored Plan: {selected_plan_30}&quot;)&amp;#10;print(f&quot;🔄 Moving to Image Index: {image_index}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_30" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_30" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$current_image_30" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_30" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[1,0.8]" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_30" plugin="None">
+        <Param val="valid_keys_str_30" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_30" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trialBundling">
+      <RoutineSettingsComponent name="trialBundling" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trialBundling" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_bundling" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block_type = &quot;Bundling&quot;;&amp;#10;if ((block_type === &quot;Bundling&quot;)) {&amp;#10;    image_list_bundling = images_bundling;&amp;#10;    image_path_bundling = image_paths[&quot;Bundling&quot;];&amp;#10;}&amp;#10;if ((image_index &lt; image_list_bundling.length)) {&amp;#10;    image_file_bundling = image_list_bundling[image_index];&amp;#10;    current_image_bundling = (image_path_bundling + image_file_bundling);&amp;#10;    if ((! os.path.exists(current_image_bundling))) {&amp;#10;        console.log(`❌ ERROR: Missing image: ${current_image_bundling}`);&amp;#10;    } else {&amp;#10;        console.log(`✅ Displaying Image: ${current_image_bundling}`);&amp;#10;    }&amp;#10;    image_base_name = image_file_bundling.replace(&quot;Bundling.jpg&quot;, &quot;&quot;);&amp;#10;    num_plans_bundling = plan_counts.get(image_base_name, 0);&amp;#10;} else {&amp;#10;    current_image_bundling = null;&amp;#10;    num_plans_bundling = 0;&amp;#10;}&amp;#10;valid_keys_bundling = function () {&amp;#10;    var _pj_a = [], _pj_b = util.range(num_plans_bundling);&amp;#10;    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c &lt; _pj_d); _pj_c += 1) {&amp;#10;        var i = _pj_b[_pj_c];&amp;#10;        _pj_a.push((i + 1).toString());&amp;#10;    }&amp;#10;    return _pj_a;&amp;#10;}&amp;#10;.call(this);&amp;#10;valid_keys_str_bundling = valid_keys_bundling;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="### BEGIN ROUTINE for Bundling ###&amp;#10;block_type = &quot;Bundling&quot;&amp;#10;&amp;#10;if block_type == &quot;Bundling&quot;:&amp;#10;    image_list_bundling = images_bundling&amp;#10;    image_path_bundling = image_paths[&quot;Bundling&quot;]&amp;#10;&amp;#10;if image_index &lt; len(image_list_bundling):&amp;#10;    image_file_bundling = image_list_bundling[image_index]&amp;#10;    current_image_bundling = image_path_bundling + image_file_bundling&amp;#10;&amp;#10;    if not os.path.exists(current_image_bundling):&amp;#10;        print(f&quot;❌ ERROR: Missing image: {current_image_bundling}&quot;)&amp;#10;    else:&amp;#10;        print(f&quot;✅ Displaying Image: {current_image_bundling}&quot;)&amp;#10;&amp;#10;    image_base_name = image_file_bundling.replace(&quot;Bundling.jpg&quot;, &quot;&quot;)&amp;#10;    num_plans_bundling = plan_counts.get(image_base_name, 0)&amp;#10;else:&amp;#10;    current_image_bundling = None&amp;#10;    num_plans_bundling = 0&amp;#10;&amp;#10;valid_keys_bundling = [str(i + 1) for i in range(num_plans_bundling)]&amp;#10;valid_keys_str_bundling = valid_keys_bundling&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if (key_resp_bundling.keys) {&amp;#10;    keys_bundling = key_resp_bundling.keys;&amp;#10;    selected_key_bundling = keys_bundling[0];&amp;#10;    selected_plan_bundling = `Plan ${selected_key_bundling}`;&amp;#10;    console.log(`✅ Selected: ${selected_plan_bundling}`);&amp;#10;    continueRoutine = false;&amp;#10;} else {&amp;#10;    selected_plan_bundling = &quot;None&quot;;&amp;#10;    console.log(&quot;\u274c No selection made.&quot;);&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;Image_Bundling&quot;, image_file_bundling);&amp;#10;psychoJS.experiment.addData(&quot;Selected_Plan_Bundling&quot;, selected_plan_bundling);&amp;#10;if ((! continueRoutine)) {&amp;#10;    image_index += 1;&amp;#10;    if ((image_index &gt;= image_list_bundling.length)) {&amp;#10;        console.log(&quot;\u2705 All Bundling trials completed! Ending experiment.&quot;);&amp;#10;        trialsBundling.finished = true;&amp;#10;    }&amp;#10;}&amp;#10;console.log(`📜 Stored Plan: ${selected_plan_bundling}`);&amp;#10;console.log(`🔄 Moving to Image Index: ${image_index}`);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="### END ROUTINE for Bundling ###&amp;#10;if key_resp_bundling.keys:  # ✅ Corrected Variable Name&amp;#10;    keys_bundling = key_resp_bundling.keys  # ✅ Assign response keys correctly&amp;#10;    selected_key_bundling = keys_bundling[0]  # Get first key press&amp;#10;    selected_plan_bundling = f&quot;Plan {selected_key_bundling}&quot;&amp;#10;    print(f&quot;✅ Selected: {selected_plan_bundling}&quot;)&amp;#10;&amp;#10;    continueRoutine = False  # Ensure routine ends immediately  &amp;#10;else:&amp;#10;    selected_plan_bundling = &quot;None&quot;&amp;#10;    print(&quot;❌ No selection made.&quot;)&amp;#10;&amp;#10;thisExp.addData(&quot;Image_Bundling&quot;, image_file_bundling)&amp;#10;thisExp.addData(&quot;Selected_Plan_Bundling&quot;, selected_plan_bundling)&amp;#10;&amp;#10;# ✅ Ensure routine ends before incrementing image_index&amp;#10;if not continueRoutine:&amp;#10;    image_index += 1&amp;#10;&amp;#10;    # ✅ Ensure loop stops after the last image&amp;#10;    if image_index &gt;= len(image_list_bundling):  &amp;#10;        print(&quot;✅ All Bundling trials completed! Ending experiment.&quot;)&amp;#10;        trialsBundling.finished = True  # ✅ Ensures loop stops only once&amp;#10;&amp;#10;print(f&quot;📜 Stored Plan: {selected_plan_bundling}&quot;)&amp;#10;print(f&quot;🔄 Moving to Image Index: {image_index}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_bundling" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image_bundling" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$current_image_bundling" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_bundling" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[1,0.85]" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_bundling" plugin="None">
+        <Param val="valid_keys_str_bundling" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_bundling" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="WelcomeScreen"/>
+    <LoopInitiator loopType="TrialHandler" name="trialsControl">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image_file': 'Control_SubPlans/Hotstar.jpg', 'plan_a_x1': 321, 'plan_a_y1': 239, 'plan_a_x2': 442, 'plan_a_y2': 943, 'plan_b_x1': 452, 'plan_b_y1': 251, 'plan_b_x2': 579, 'plan_b_y2': 942, 'plan_c_x1': 566, 'plan_c_y1': 246, 'plan_c_x2': 717, 'plan_c_y2': 943, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/Zee5.jpg', 'plan_a_x1': 72, 'plan_a_y1': 489, 'plan_a_x2': 409, 'plan_a_y2': 807, 'plan_b_x1': 430, 'plan_b_y1': 531, 'plan_b_x2': 765, 'plan_b_y2': 802, 'plan_c_x1': 787, 'plan_c_y1': 531, 'plan_c_x2': 1122, 'plan_c_y2': 805, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/Netflix.jpg', 'plan_a_x1': 14, 'plan_a_y1': 153, 'plan_a_x2': 416, 'plan_a_y2': 1147, 'plan_b_x1': 443, 'plan_b_y1': 144, 'plan_b_x2': 853, 'plan_b_y2': 1145, 'plan_c_x1': 886, 'plan_c_y1': 154, 'plan_c_x2': 1287, 'plan_c_y2': 1147, 'plan_d_x1': 1321, 'plan_d_y1': 153, 'plan_d_x2': 1723, 'plan_d_y2': 1145}, {'image_file': 'Control_SubPlans/AppleOne.jpg', 'plan_a_x1': 51, 'plan_a_y1': 45, 'plan_a_x2': 653, 'plan_a_y2': 1101, 'plan_b_x1': 714, 'plan_b_y1': 41, 'plan_b_x2': 1315, 'plan_b_y2': 1101, 'plan_c_x1': None, 'plan_c_y1': None, 'plan_c_x2': None, 'plan_c_y2': None, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/SonyLiv.jpg', 'plan_a_x1': 767, 'plan_a_y1': 262, 'plan_a_x2': 1313, 'plan_a_y2': 973, 'plan_b_x1': 1313, 'plan_b_y1': 262, 'plan_b_x2': 1858, 'plan_b_y2': 973, 'plan_c_x1': 1858, 'plan_c_y1': 260, 'plan_c_x2': 2403, 'plan_c_y2': 971, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/JioCinema.jpg', 'plan_a_x1': 1127, 'plan_a_y1': 856, 'plan_a_x2': 1817, 'plan_a_y2': 994, 'plan_b_x1': 1841, 'plan_b_y1': 856, 'plan_b_x2': 2535, 'plan_b_y2': 994, 'plan_c_x1': None, 'plan_c_y1': None, 'plan_c_x2': None, 'plan_c_y2': None, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/AmazonPrime.jpg', 'plan_a_x1': 1102, 'plan_a_y1': 1067, 'plan_a_x2': 1626, 'plan_a_y2': 1128, 'plan_b_x1': 1637, 'plan_b_y1': 1067, 'plan_b_x2': 2162, 'plan_b_y2': 1128, 'plan_c_x1': 2173, 'plan_c_y1': 1067, 'plan_c_x2': 2698, 'plan_c_y2': 1128, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}, {'image_file': 'Control_SubPlans/Crunchyroll.jpg', 'plan_a_x1': 0, 'plan_a_y1': 72, 'plan_a_x2': 464, 'plan_a_y2': 878, 'plan_b_x1': 493, 'plan_b_y1': 23, 'plan_b_x2': 956, 'plan_b_y2': 884, 'plan_c_x1': 986, 'plan_c_y1': 25, 'plan_c_x2': 1439, 'plan_c_y2': 882, 'plan_d_x1': None, 'plan_d_y1': None, 'plan_d_x2': None, 'plan_d_y2': None}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="trialsControl" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trialControl"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trialsControl"/>
+    <Routine name="blank500"/>
+    <LoopInitiator loopType="TrialHandler" name="trials20">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="trials20" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial20"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trials20"/>
+    <Routine name="blank500"/>
+    <LoopInitiator loopType="TrialHandler" name="trials30">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="trials30" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial30"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trials30"/>
+    <Routine name="blank500"/>
+    <LoopInitiator loopType="TrialHandler" name="trialsBundling">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="trialsBundling" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trialBundling"/>
+    <Routine name="blank500"/>
+    <LoopTerminator name="trialsBundling"/>
+    <Routine name="blank500"/>
+    <Routine name="EndScreen"/>
+  </Flow>
+</PsychoPy2experiment>
