@@ -1,0 +1,279 @@
+30.1668 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+38.4042 	INFO 	Loaded monitor calibration from ['2024_03_03 23:24']
+38.9249 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x15f62ee60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x15f62ee00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x15f25dc30>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+38.9250 	EXP 	window1: backgroundImage = ''
+38.9250 	EXP 	window1: backgroundFit = 'none'
+39.0007 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+39.0007 	EXP 	window1: recordFrameIntervals = False
+39.2447 	EXP 	window1: recordFrameIntervals = True
+40.1123 	WARNING 	t of last frame was 22.39ms (=1/44)
+40.1214 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+40.1411 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+49.2564 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2565 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2565 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2565 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2565 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2566 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2566 	INFO 	keyboard.Keyboard is using iohub backend.
+49.2567 	EXP 	RES501: status = STARTED
+49.4257 	EXP 	Created textWelcScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcScreen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to our Experiment!', units='height', win=Window(...), wrapWidth=1)
+49.4431 	EXP 	Created textWelcMessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcMessage', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+49.4876 	EXP 	Created image_control = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_control', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+49.4886 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.4894 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.4927 	EXP 	Created image_20 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_20', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+49.4935 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.4942 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.4986 	EXP 	Created image_30 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_30', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+49.4998 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.5006 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.5040 	EXP 	Created image_bundling = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_bundling', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+49.5049 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.5056 	EXP 	Created textblank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textblank500', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+49.5117 	EXP 	Created textEndScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textEndScreen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.1379 	WARNING 	t of last frame was 82.18ms (=1/12)
+0.1379 	EXP 	textWelcScreen: autoDraw = True
+2.1000 	EXP 	textWelcMessage: autoDraw = True
+2.1333 	EXP 	textWelcScreen: autoDraw = False
+3.0011 	INFO 	Keyboard events cleared
+11.4224 	WARNING 	t of last frame was 34.41ms (=1/29)
+11.9093 	WARNING 	t of last frame was 22.55ms (=1/44)
+12.5497 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.6573 	DATA 	Keypress: space
+14.5602 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+14.6239 	DATA 	Keypress: space
+14.6296 	EXP 	textWelcScreen: autoDraw = False
+14.6296 	EXP 	textWelcMessage: autoDraw = False
+14.6296 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/HotstarControl.jpg'
+14.6296 	EXP 	image_control: autoDraw = True
+14.7500 	INFO 	Keyboard events cleared
+28.5970 	DATA 	Keypress: 1
+28.6054 	EXP 	image_control: autoDraw = False
+28.6054 	EXP 	textblank500: autoDraw = True
+29.0889 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+29.1406 	EXP 	textblank500: autoDraw = False
+29.1406 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/SonyLivControl.jpg'
+29.1406 	EXP 	image_control: autoDraw = True
+29.2740 	INFO 	Keyboard events cleared
+35.9783 	EXP 	image_control: autoDraw = False
+35.9783 	EXP 	textblank500: autoDraw = True
+35.9845 	DATA 	Keypress: 1
+36.4687 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+36.5208 	EXP 	textblank500: autoDraw = False
+36.5208 	EXP 	textblank500: autoDraw = False
+36.5208 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/Zee5Control.jpg'
+36.5208 	EXP 	image_control: autoDraw = True
+36.6753 	INFO 	Keyboard events cleared
+50.7882 	DATA 	Keypress: 1
+50.7938 	EXP 	image_control: autoDraw = False
+50.7938 	EXP 	textblank500: autoDraw = True
+51.2902 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+51.3382 	EXP 	textblank500: autoDraw = False
+51.3382 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/NetflixControl.jpg'
+51.3382 	EXP 	image_control: autoDraw = True
+51.4685 	INFO 	Keyboard events cleared
+58.5644 	DATA 	Keypress: 2
+58.5696 	EXP 	image_control: autoDraw = False
+58.5696 	EXP 	textblank500: autoDraw = True
+59.0583 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+59.0977 	EXP 	textblank500: autoDraw = False
+59.0977 	EXP 	textblank500: autoDraw = False
+59.0977 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/AppleOneControl.jpg'
+59.0977 	EXP 	image_control: autoDraw = True
+59.2593 	INFO 	Keyboard events cleared
+66.2692 	EXP 	image_control: autoDraw = False
+66.2692 	EXP 	textblank500: autoDraw = True
+66.2719 	DATA 	Keypress: 1
+66.7574 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+66.7918 	EXP 	textblank500: autoDraw = False
+66.7918 	EXP 	textblank500: autoDraw = False
+66.7918 	EXP 	image_control: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Control_SubPlans/CrunchyrollControl.jpg'
+66.7918 	EXP 	image_control: autoDraw = True
+66.9572 	INFO 	Keyboard events cleared
+73.6628 	EXP 	image_control: autoDraw = False
+73.6628 	EXP 	textblank500: autoDraw = True
+73.6667 	DATA 	Keypress: 1
+74.1695 	EXP 	textblank500: autoDraw = False
+74.1695 	EXP 	textblank500: autoDraw = True
+74.6731 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+74.7042 	EXP 	textblank500: autoDraw = False
+74.7042 	EXP 	textblank500: autoDraw = False
+74.7042 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/AppleOne20.jpg'
+74.7042 	EXP 	image_20: autoDraw = True
+74.8528 	INFO 	Keyboard events cleared
+82.5312 	DATA 	Keypress: 2
+82.5533 	EXP 	image_20: autoDraw = False
+82.5533 	EXP 	textblank500: autoDraw = True
+83.0411 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+83.0781 	EXP 	textblank500: autoDraw = False
+83.0781 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/Crunchyroll20.jpg'
+83.0781 	EXP 	image_20: autoDraw = True
+83.2260 	INFO 	Keyboard events cleared
+85.3071 	DATA 	Keypress: 1
+85.3115 	EXP 	image_20: autoDraw = False
+85.3115 	EXP 	textblank500: autoDraw = True
+85.8032 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+85.8231 	EXP 	textblank500: autoDraw = False
+85.8231 	EXP 	textblank500: autoDraw = False
+85.8231 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/Zee520.jpg'
+85.8231 	EXP 	image_20: autoDraw = True
+86.0031 	INFO 	Keyboard events cleared
+89.1162 	DATA 	Keypress: 1
+89.1249 	EXP 	image_20: autoDraw = False
+89.1249 	EXP 	textblank500: autoDraw = True
+89.6089 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+89.6577 	EXP 	textblank500: autoDraw = False
+89.6577 	EXP 	textblank500: autoDraw = False
+89.6577 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/SonyLiv20.jpg'
+89.6577 	EXP 	image_20: autoDraw = True
+89.8107 	INFO 	Keyboard events cleared
+90.8615 	DATA 	Keypress: 1
+90.8697 	EXP 	image_20: autoDraw = False
+90.8697 	EXP 	textblank500: autoDraw = True
+91.3579 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+91.3898 	EXP 	textblank500: autoDraw = False
+91.3898 	EXP 	textblank500: autoDraw = False
+91.3898 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/Netflix20.jpg'
+91.3898 	EXP 	image_20: autoDraw = True
+91.5579 	INFO 	Keyboard events cleared
+93.6287 	EXP 	image_20: autoDraw = False
+93.6287 	EXP 	textblank500: autoDraw = True
+93.6327 	DATA 	Keypress: 2
+94.1243 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+94.1646 	EXP 	textblank500: autoDraw = False
+94.1646 	EXP 	image_20: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/20_SubPlans/Hotstar20.jpg'
+94.1646 	EXP 	image_20: autoDraw = True
+94.3197 	INFO 	Keyboard events cleared
+97.4532 	EXP 	image_20: autoDraw = False
+97.4532 	EXP 	textblank500: autoDraw = True
+97.4564 	DATA 	Keypress: 1
+97.9531 	EXP 	textblank500: autoDraw = False
+97.9531 	EXP 	textblank500: autoDraw = False
+97.9531 	EXP 	textblank500: autoDraw = True
+98.4426 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+98.4828 	EXP 	textblank500: autoDraw = False
+98.4828 	EXP 	textblank500: autoDraw = False
+98.4828 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/Hotstar30.jpg'
+98.4828 	EXP 	image_30: autoDraw = True
+98.6542 	INFO 	Keyboard events cleared
+101.1128 	DATA 	Keypress: 1
+101.1200 	EXP 	image_30: autoDraw = False
+101.1200 	EXP 	textblank500: autoDraw = True
+101.6086 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+101.6374 	EXP 	textblank500: autoDraw = False
+101.6374 	EXP 	textblank500: autoDraw = False
+101.6374 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/Zee530.jpg'
+101.6374 	EXP 	image_30: autoDraw = True
+101.8055 	INFO 	Keyboard events cleared
+103.0123 	DATA 	Keypress: 1
+103.0179 	EXP 	image_30: autoDraw = False
+103.0179 	EXP 	textblank500: autoDraw = True
+103.5086 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+103.5415 	EXP 	textblank500: autoDraw = False
+103.5415 	EXP 	textblank500: autoDraw = False
+103.5415 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/Crunchyroll30.jpg'
+103.5415 	EXP 	image_30: autoDraw = True
+103.7080 	INFO 	Keyboard events cleared
+107.1921 	DATA 	Keypress: 1
+107.1973 	EXP 	image_30: autoDraw = False
+107.1973 	EXP 	textblank500: autoDraw = True
+107.6874 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+107.7297 	EXP 	textblank500: autoDraw = False
+107.7297 	EXP 	textblank500: autoDraw = False
+107.7297 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/SonyLiv30.jpg'
+107.7297 	EXP 	image_30: autoDraw = True
+107.8870 	INFO 	Keyboard events cleared
+108.8651 	DATA 	Keypress: 1
+108.8745 	EXP 	image_30: autoDraw = False
+108.8745 	EXP 	textblank500: autoDraw = True
+109.3600 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+109.3846 	EXP 	textblank500: autoDraw = False
+109.3846 	EXP 	textblank500: autoDraw = False
+109.3846 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/AppleOne30.jpg'
+109.3846 	EXP 	image_30: autoDraw = True
+109.5607 	INFO 	Keyboard events cleared
+113.8683 	DATA 	Keypress: 2
+113.8751 	EXP 	image_30: autoDraw = False
+113.8751 	EXP 	textblank500: autoDraw = True
+114.3604 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+114.4103 	EXP 	textblank500: autoDraw = False
+114.4103 	EXP 	textblank500: autoDraw = False
+114.4103 	EXP 	image_30: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/30_SubPlans/Netflix30.jpg'
+114.4103 	EXP 	image_30: autoDraw = True
+114.5609 	INFO 	Keyboard events cleared
+116.2818 	DATA 	Keypress: 2
+116.2868 	EXP 	image_30: autoDraw = False
+116.2868 	EXP 	textblank500: autoDraw = True
+116.7876 	EXP 	textblank500: autoDraw = False
+116.7876 	EXP 	textblank500: autoDraw = False
+116.7876 	EXP 	textblank500: autoDraw = True
+117.2781 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+117.3081 	EXP 	textblank500: autoDraw = False
+117.3081 	EXP 	textblank500: autoDraw = False
+117.3081 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/Zee5Bundling.jpg'
+117.3081 	EXP 	image_bundling: autoDraw = True
+117.4878 	INFO 	Keyboard events cleared
+141.5603 	EXP 	image_bundling: autoDraw = False
+141.5603 	EXP 	textblank500: autoDraw = True
+141.5650 	DATA 	Keypress: 1
+142.0445 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+142.0941 	EXP 	textblank500: autoDraw = False
+142.0941 	EXP 	textblank500: autoDraw = False
+142.0941 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/SonyLivBundling.jpg'
+142.0941 	EXP 	image_bundling: autoDraw = True
+142.2552 	INFO 	Keyboard events cleared
+149.6482 	DATA 	Keypress: 3
+149.6551 	EXP 	image_bundling: autoDraw = False
+149.6551 	EXP 	textblank500: autoDraw = True
+150.1438 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+150.1744 	EXP 	textblank500: autoDraw = False
+150.1744 	EXP 	textblank500: autoDraw = False
+150.1744 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/AppleOneBundling.jpg'
+150.1744 	EXP 	image_bundling: autoDraw = True
+150.3405 	INFO 	Keyboard events cleared
+152.3946 	EXP 	image_bundling: autoDraw = False
+152.3946 	EXP 	textblank500: autoDraw = True
+152.3976 	DATA 	Keypress: 1
+152.8818 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+152.9119 	EXP 	textblank500: autoDraw = False
+152.9119 	EXP 	textblank500: autoDraw = False
+152.9119 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/HotstarBundling.jpg'
+152.9119 	EXP 	image_bundling: autoDraw = True
+153.0901 	INFO 	Keyboard events cleared
+156.0177 	DATA 	Keypress: 1
+156.0227 	EXP 	image_bundling: autoDraw = False
+156.0227 	EXP 	textblank500: autoDraw = True
+156.5065 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+156.5419 	EXP 	textblank500: autoDraw = False
+156.5419 	EXP 	textblank500: autoDraw = False
+156.5419 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/NetflixBundling.jpg'
+156.5419 	EXP 	image_bundling: autoDraw = True
+156.7124 	INFO 	Keyboard events cleared
+160.5794 	DATA 	Keypress: 2
+160.5852 	EXP 	image_bundling: autoDraw = False
+160.5852 	EXP 	textblank500: autoDraw = True
+161.0738 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+161.0971 	EXP 	textblank500: autoDraw = False
+161.0971 	EXP 	textblank500: autoDraw = False
+161.0971 	EXP 	image_bundling: image = '/Users/manastanavde/Downloads/PsychoPy/RES501/Bundling_SubPlans/CrunchyrollBundling.jpg'
+161.0971 	EXP 	image_bundling: autoDraw = True
+161.2725 	INFO 	Keyboard events cleared
+171.7582 	EXP 	image_bundling: autoDraw = False
+171.7582 	EXP 	textblank500: autoDraw = True
+171.7634 	DATA 	Keypress: 1
+172.2604 	EXP 	textblank500: autoDraw = False
+172.2604 	EXP 	textblank500: autoDraw = False
+172.2604 	EXP 	textblank500: autoDraw = True
+172.7636 	EXP 	textblank500: autoDraw = False
+172.7636 	EXP 	textblank500: autoDraw = False
+172.7636 	EXP 	textEndScreen: autoDraw = True
+173.7462 	INFO 	Keyboard events cleared
+177.8390 	EXP 	textEndScreen: autoDraw = False
+177.8392 	EXP 	RES501: status = STOPPED
+177.8554 	INFO 	saved data to '/Users/manastanavde/Downloads/PsychoPy/RES501/data/41198_RES501_2025-04-02_12h04.49.915.csv'
+177.8616 	INFO 	saved data to /Users/manastanavde/Downloads/PsychoPy/RES501/data/41198_RES501_2025-04-02_12h04.49.915.psydat
+177.8639 	DATA 	Keypress: space
